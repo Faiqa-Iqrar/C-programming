@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+
+unsigned int x;
+unsigned int y;
+unsigned int i =1;
+unsigned int power = 1;
+printf("Enter base(x)");
+scanf("%u", &x);
+printf("Enter exponent(y)");
+scanf("%u", &y);
+
+while (i<=y){
+   power*=x;
+   i++;
+}
+
+printf("%u raised to %u is %u",x, y, power);
+    return 0;
+}
