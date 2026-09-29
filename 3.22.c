@@ -11,7 +11,6 @@ int num;
 int isPrime=1; // Flag=> 1 means prime and 0 means not prime
 printf("Enter a number to check if its prime:\n");
 scanf("%d", &num);
-while(num)
 if(num<=1){
     isPrime=0; //Numbers<=1 are not prime
     }else{
